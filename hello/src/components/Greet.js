@@ -8,7 +8,11 @@ function Greet(){
     */
 // this is with es6 syntax
 
-const Greet=()=>{
-    return <h1>Hello Niraj</h1>
+const Greet=(props)=>{
+    console.log(props.name)
+    return <div>
+        <h1>Hello {props.name} a.k.a {props.hero}</h1>
+        {props.children}
+    </div>
 }
 export default Greet

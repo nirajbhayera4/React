@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
       {/* <Greet /> */}
+      <Greet name="bruce" hero="superman"><p>This is children props</p></Greet>
+      <Greet name="james" hero="batman"/>
+      <Greet name="peter" hero="spiderman"/>
+
       {/* <Welcome /> */}
-      <Hello />
+      {/* <Hello /> */}
     </div>
   );
 }
