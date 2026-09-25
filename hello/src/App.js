@@ -5,7 +5,8 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
-
+import FunctionClick from './components/FunctionClick'
+import EventHandler from './components/EventHandler'
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,9 @@ function App() {
       <Greet name="peter" hero="spiderman"/>
       */}
       <Welcome name="bruce" heroname="superman" />
+      <FunctionClick />
+      <EventHandler />
+
       {/*<Message />*/}
 
            {/* <Welcome /> */}
