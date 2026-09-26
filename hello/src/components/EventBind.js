@@ -7,17 +7,24 @@ import React, { Component } from 'react'
       this.state = {
         message:"hello"
       }
+      this.clickhandler=this.clickhandler.bind(this)
     }
     clickhandler(){
+        this.setState({
+            message:'Goodbye!'
+        })
        console.log(this)
     }
   render() {
     return (
       <div>
         <div>{this.state.message}</div>
-        <button onClick={this.clickhandler}>
+        {/*<button onClick={this.clickhandler.bind(this)}>
             Click me please
-        </button>
+        </button>*/}
+        <button onClick={this.clickhandler}>Click me</button>
+
+
       </div>
     )
   }
