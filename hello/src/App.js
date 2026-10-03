@@ -8,10 +8,12 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import EventHandler from './components/EventHandler'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 function App() {
   return (
     <div className="App">
       <Counter />
+      <ParentComponent />
       <Greet name="bruce" heroname="superman" />
       {/* <Greet /> */}
       {/*<Greet name="bruce" hero="superman"><p>This is children props</p></Greet>
