@@ -5,10 +5,18 @@ class UserGreeting extends Component {
         super(props)
 
         this.state = {
-            isLoggedIN: true
+            isLoggedIN: false
+            
         }
     }
     render() {
+        return (
+            this.state.isLoggedIN ?
+            <div>welcome niraj !</div>
+            :
+            <div>welcome nicks !</div>
+        )
+        /*
         let Message
         if(this.state.isLoggedIN){
             Message= <div>welcome niraj !</div>
@@ -17,6 +25,8 @@ class UserGreeting extends Component {
             Message= <div>welcome nicks !</div>
         }
         return <div>{Message}</div>
+        */
+
         /*
         if (this.state.isLoggedIN) {
             return (
