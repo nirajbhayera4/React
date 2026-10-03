@@ -9,8 +9,8 @@ import ChildComponent from './ChildComponent'
       }
       this.greetparent=this.greetparent.bind(this)
     }
-    greetparent(){
-        alert(`Hello ${this.state.parentName}`)
+    greetparent(childName){
+        alert(`Hello ${this.state.parentName} from ${childName}`)
     }
   render() {
     return (
