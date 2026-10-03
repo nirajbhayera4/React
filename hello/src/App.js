@@ -9,10 +9,12 @@ import FunctionClick from './components/FunctionClick'
 import EventHandler from './components/EventHandler'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/*<Counter />*/}
+      <UserGreeting />
       <ParentComponent />
       <Greet name="bruce" heroname="superman" />
       {/* <Greet /> */}
