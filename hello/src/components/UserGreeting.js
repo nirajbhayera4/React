@@ -9,6 +9,15 @@ class UserGreeting extends Component {
         }
     }
     render() {
+        let Message
+        if(this.state.isLoggedIN){
+            Message= <div>welcome niraj !</div>
+        }
+        else{
+            Message= <div>welcome nicks !</div>
+        }
+        return <div>{Message}</div>
+        /*
         if (this.state.isLoggedIN) {
             return (
                 <div>Welcome niraj !</div>
@@ -19,6 +28,8 @@ class UserGreeting extends Component {
                 <div>Welcome nicks !</div>
             )
         }
+        */
+
         /*return (
           <div>
             <div>Welcome niraj !</div>
