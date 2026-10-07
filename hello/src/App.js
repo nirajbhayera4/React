@@ -10,10 +10,13 @@ import EventHandler from './components/EventHandler'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList'
+
 function App() {
   return (
     <div className="App">
       {/*<Counter />*/}
+      <NameList/>
       <UserGreeting />
       <ParentComponent />
       <Greet name="bruce" heroname="superman" />
