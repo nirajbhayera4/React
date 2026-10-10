@@ -12,11 +12,12 @@ import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import Practice1 from './components/practice1'
+import Practice2 from './components/practice2'
 function App() {
   return (
     <div className="App">
       <Practice1/>
-      
+      <Practice2/>
       
       
     </div>
