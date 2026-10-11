@@ -16,12 +16,14 @@ import Practice2 from './components/practice2'
 import Practice3 from './components/Practice3'
 import Practice4 from './components/Practice4'
 import Practice5 from './components/Practice5'
+import Practice6 from './components/Practice6'
+
 
 function App() {
   return (
     <div className="App">
       
-      <Practice5/>
+      <Practice6/>
 
       
       
