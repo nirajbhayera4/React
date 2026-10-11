@@ -13,11 +13,13 @@ import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import Practice1 from './components/practice1'
 import Practice2 from './components/practice2'
+import Practice3 from './components/Practice3'
 function App() {
   return (
     <div className="App">
-      <Practice1/>
-      <Practice2/>
+      
+      <Practice3/>
+
       
       
     </div>
