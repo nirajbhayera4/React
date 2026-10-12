@@ -18,6 +18,7 @@ import Practice4 from './components/Practice4'
 import Practice5 from './components/Practice5'
 import Practice6 from './components/Practice6'
 import Practice7 from './components/Practice7'
+import List from './components/List'
 
 
 
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App">
       
-      <Practice7/>
+      <List/>
 
       
       
