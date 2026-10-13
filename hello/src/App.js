@@ -19,14 +19,14 @@ import Practice5 from './components/Practice5'
 import Practice6 from './components/Practice6'
 import Practice7 from './components/Practice7'
 import List from './components/List'
-
+import Stylesheets from './components/Stylesheets'
 import Keys from './components/Keys'
 
 
 function App() {
   return (
     <div className="App">
-      <Keys/>
+      <Stylesheets/>
       
      
 
