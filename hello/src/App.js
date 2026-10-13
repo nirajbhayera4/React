@@ -21,12 +21,14 @@ import Practice7 from './components/Practice7'
 import List from './components/List'
 import Stylesheets from './components/Stylesheets'
 import Keys from './components/Keys'
+import Form from './components/Form'
 
 
 function App() {
   return (
     <div className="App">
-      <Stylesheets/>
+      
+      <Form/>
       
      
 
