@@ -22,13 +22,14 @@ import List from './components/List'
 import Stylesheets from './components/Stylesheets'
 import Keys from './components/Keys'
 import Form from './components/Form'
+import LifeCycleA from './components/LifeCycleA'
 
 
 function App() {
   return (
     <div className="App">
       
-      <Form/>
+      <LifeCycleA/>
       
      
 
