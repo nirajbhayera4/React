@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LifeCycleB from './LifeCycleB';
 
  class LifeCycleA extends Component {
     constructor(props) {
@@ -19,9 +20,15 @@ import React, { Component } from 'react'
         console.log("lifecycle componentDidMount")
     }
   render() {
-    console.log('lifecycle render')
+    console.log('lifecycleA render')
     return (
-      <div>LifeCycleA</div>
+        <div>
+              <div>LifeCycleA</div>
+              <LifeCycleB/>
+
+        </div>
+        
+    
     )
   }
 }
