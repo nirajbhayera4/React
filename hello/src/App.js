@@ -1,13 +1,12 @@
-import Ps1 from './practice/Ps1';
-import Ps2 from './practice/Ps2';
-import Ps3 from './practice/Ps3';
+import Ps4 from './practice/Ps4';
+
 
 
 function App() {
   return (
     <div className="App">
 
-      <Ps3 />
+      <Ps4 />
 
 
 
