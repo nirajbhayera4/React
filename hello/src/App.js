@@ -1,4 +1,5 @@
-import Ps4 from './practice/Ps4';
+
+import Ps5 from './practice/Ps5';
 
 
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
 
-      <Ps4 />
+      <Ps5 name="niraj" age={21} />
 
 
 
