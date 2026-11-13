@@ -1,13 +1,14 @@
 
-import Ps5 from './practice/Ps5';
+import Ps6 from './practice/Ps6';
 
 
 
 function App() {
   return (
     <div className="App">
+      <Ps6 />
 
-      <Ps5 name="niraj" age={21} />
+      
 
 
 
